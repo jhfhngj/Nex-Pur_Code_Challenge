@@ -2,7 +2,6 @@ prt(This is Racer, a racing game made in Pur for the Nex Coding Challenge.
 prt(Start now by pressing Enter!
 into(
 ## Game
-
 prt(Car in front of you! Go ahead or not? (Y/N) 
 into(frt
 if=(frt(Y(out
