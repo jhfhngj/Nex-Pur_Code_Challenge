@@ -1,0 +1,36 @@
+prt(This is Racer, a racing game made in Pur for the Nex Coding Challenge.
+prt(Start now by pressing Enter!
+into(
+## Game
+
+prt(Car in front of you! Go ahead or not? (Y/N) 
+into(frt
+if=(frt(Y(out
+prt(You went ahead successfully. You are now 2nd place in the race!
+prt(You got cut off by 3rd place!
+prt(Note: This is not random.
+prt(1 lap left!
+prt(Use remaining boost? (Y/N)
+into(boost
+if=(boost(Y(in
+prt(You crashed all racers! 1st place! You won!
+end(
+if=(boost(N(in
+prt(The cars cut you off.
+prt(In 1st place is the red car!
+prt(You lost at 5th place...
+end(
+end(
+if=(frt(N(out
+prt(You didn't go ahead. You have lost places and now are at 5th place!'
+prt(Boost?
+into(boostl
+if=(boostl(Y(of
+prt(You crashed into the wall...
+prt(You lost!
+end(
+if=(boost1(N(of
+prt(The racers hit the wall!
+prt(You did 2 laps and won!
+end(
+end(
